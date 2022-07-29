@@ -1,0 +1,25 @@
+.cabecalho{
+    align-items: center;
+    background-image: url('../../img/Background.png');    
+    background-repeat: no-repeat;
+    background-size: contain;     
+    text-align: center;
+}
+
+.h1{
+    font-size: 28px;
+    font-weight: 700;    
+}
+
+.aviso{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.img__Combo{
+    margin: 1em 0 2em 0;    
+}
+
+.caixa{
+    margin: 0 6em;
+}

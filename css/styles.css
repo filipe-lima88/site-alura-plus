@@ -1,0 +1,27 @@
+/* Nota: Existem duas maneiras diferentes de importar um arquivo CSS para outro usando @import url (“style2.css”); 
+ou @import “style2.css”; ou importe diretamente qualquer arquivo CSS ou arquivo CSS múltiplo no arquivo HTML 
+diretamente em <style> @import “style1.css”; ou. @ import url (“style2.css”); </style> na seção head. */
+
+/*Declarando as variáveis das cores para o projeto*/
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --vermelho-lingua: #EC2F46;
+    --azul-botao: #167BF7;
+    --cor-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito-mouse: rgb(108, 108, 255);
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,28 @@
+.botoes{
+    border-radius: 5px; 
+    color: var(--branco-principal);    
+    display: block;
+    margin-bottom: 1em;
+    padding: 1em;    
+    text-decoration: none;    
+}
+
+.alura-combo{
+    background-color: var(--azul-botao);    
+}
+
+.alura-plus{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.assine-combo-plus{
+    display: inline-block;    
+    margin-top: 1em;
+    text-align: center;    
+}
+
+.botoes:hover{
+    background-color: var(--botao-azul-efeito-mouse);
+    transition: 0.5s;
+}

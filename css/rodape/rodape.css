@@ -1,0 +1,51 @@
+.rodape{
+    text-align: center;
+    margin-top: 10em;
+}
+
+.rodape__logo {
+    background-position: center;
+    display: inline-block;
+    height: 36px;    
+    width: 102px;
+}
+
+.rodape__logo--ALURA{
+    background-image: url('../../img/LogoAlura.png');    
+}
+
+.rodape__links{
+    margin-top: 2em;
+}
+
+.rodape__links__lista{
+    display: flex;
+    justify-content: center;
+}
+
+.lista__item{
+    list-style: none;        
+}
+
+.lista__item a{
+    margin-right: 1.25rem;    
+    text-decoration: none;
+    color: var(--branco-principal);    
+}
+
+.lista__item a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.rodape__copyright__descricao, .rodape__copyright__obs{
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    margin-top: 2em;
+}
+
+.rodape__copyright__obs{
+    margin-left: 25em;
+    margin-right: 25em;
+    margin-bottom: 5em;
+}

@@ -1,0 +1,23 @@
+.img__descricao{
+    width: 80%;
+}
+
+.descricao__imagem{
+    align-items: center;
+    margin: 0 10em;    
+}
+
+.titulo__generico--body{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.5em;        
+}
+
+.descricao_texto{
+    color: #F9F9F9;
+    opacity: 0.8;
+}
+
+.container__descricao{
+    padding: 5em;    
+}

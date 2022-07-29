@@ -1,0 +1,50 @@
+.titulo__dispositivos{
+    text-align: center;
+    font-size: 48px;    
+    font-weight: 700;
+}
+
+.dispositivos{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;    
+}
+
+.dispositivo{
+    align-items: center;    
+    text-align: center;    
+}
+
+.caixa__dispositivos{
+    padding: 0 18em;
+}
+
+.dispositivo__imagem {
+    /* Para que as imagens não se repitam, usaremos o parâmetro background-repeat: no-repeat, 
+    além de background-size: cover para que as imagens ocupem todo o background e 
+    background-position: center para que elas sejam centralizadas na caixa. */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*border-radius: 100%; para virar um circulo*/
+    /* border-radius: 100%;      */
+    height: 200px;    
+    width: 350px;
+}
+
+.dispositivo__imagem--TV{
+    background-image: url('../../img/tv.png');    
+}
+
+.dispositivo__imagem--PC{
+    background-image: url('../../img/computador.png');  
+}
+
+.dispositivo__imagem--MOBILE{
+    background-image: url('../../img/celular.png');   
+}
+
+.dispositivo__nome{
+    font-size: 32px;
+    font-weight: 700;
+}
